@@ -1,0 +1,63 @@
+header {
+  height: 80vh;
+  font-family: gotham;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5vw 5vw;
+
+  .firstword {
+    font-size: 36px;
+  }
+  h1 {
+    font-size: 26px;
+    padding-bottom: 20px;
+  }
+  .cls-1 {
+    font-size: 36px;
+    fill: none;
+    stroke: #c14a4a;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    font-family: Gotham-Black, Gotham Black;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+  .uxdesktop {
+    display: none;
+  }
+  p {
+    color: #4b79b0;
+    padding-top: 20px;
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    height: 90vh;
+    width: 100vw;
+    .firstword {
+      font-size: 56px;
+    }
+    h1 {
+      font-size: 36px;
+      padding-bottom: 20px;
+    }
+    .cls-1 {
+      display: none;
+    }
+    .uxdesktop {
+      display: block;
+      width: 400px;
+      position: absolute;
+      right: 0;
+      padding-right: 5vw;
+    }
+    p {
+      color: #4b79b0;
+      padding-top: 20px;
+      font-size: 30px;
+      width: 500px;
+    }
+  }
+}

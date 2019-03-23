@@ -1,0 +1,31 @@
+footer {
+  font-family: gothamLight;
+  height: 130vh;
+  p {
+    text-align: center;
+    padding: 5vw 5vw 3vh 3vh;
+
+    strong {
+      font-family: gothamRegular;
+    }
+  }
+  .tel {
+    margin-top: 30px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 5vw 5vw 0vh 0vh;
+  }
+  .mail {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  footer {
+    font-family: gothamLight;
+    text-align: center;
+
+    .about {
+      width: 400px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "rayanp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.1",
+    "postcss-pxtorem": "^4.0.1",
+    "sass": "^1.17.2"
+  }
+}

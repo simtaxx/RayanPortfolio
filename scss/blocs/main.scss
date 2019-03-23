@@ -1,0 +1,95 @@
+main {
+  text-align: center;
+  .first,
+  .second {
+    .courbe1 {
+      display: none;
+    }
+  }
+  .projects {
+    text-align: center;
+
+    img {
+      width: 100vw;
+      padding: 5vw 5vw;
+    }
+    h2 {
+      font-family: gotham;
+      font-size: 18px;
+    }
+    hr {
+      margin-top: -10px;
+      width: 24vw;
+    }
+  }
+  .courbe3 {
+    width: 80vw;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 768px) {
+  main {
+    text-align: center;
+    .work {
+      width: 400px;
+    }
+    .first {
+      display: flex;
+      flex-direction: row;
+
+      .courbe1 {
+        padding-bottom: 250px;
+        display: block;
+      }
+
+      .projects {
+        text-align: center;
+
+        img {
+          width: 50vw;
+          padding: 5vw 5vw;
+        }
+        h2 {
+          font-family: gotham;
+          font-size: 24px;
+        }
+        hr {
+          margin-top: -10px;
+          width: 8vw;
+        }
+        .courbe2 {
+          width: 30vw;
+        }
+      }
+    }
+    .second {
+      display: flex;
+      flex-direction: row;
+
+      .courbe1 {
+        padding-bottom: 60px;
+        display: block;
+      }
+
+      .projects {
+        text-align: center;
+
+        img {
+          width: 50vw;
+          padding: 5vw 5vw;
+        }
+        h2 {
+          font-family: gotham;
+          font-size: 24px;
+        }
+        hr {
+          margin-top: -10px;
+          width: 8vw;
+        }
+        .courbe2 {
+          display: none;
+        }
+      }
+    }
+  }
+}
