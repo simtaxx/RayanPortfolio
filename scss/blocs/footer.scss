@@ -2,12 +2,14 @@ footer {
   font-family: gothamLight;
   height: 130vh;
   p {
-    text-align: center;
     padding: 5vw 5vw 3vh 3vh;
 
     strong {
       font-family: gothamRegular;
     }
+  }
+  p:nth-child(6)  {
+    text-align: center;
   }
   .tel {
     margin-top: 30px;
@@ -23,7 +25,15 @@ footer {
   footer {
     font-family: gothamLight;
     text-align: center;
-
+    p {
+      padding: 5vw 5vw 3vh 3vh;
+      strong {
+        font-family: gothamRegular;
+      }
+    }
+    p:nth-child(6)  {
+      text-align: center;
+    }
     .about {
       width: 400px;
     }
